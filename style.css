@@ -99,7 +99,7 @@ main {
   margin-top: 70px;
 }
 
-main > div {
+main > form {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -162,6 +162,7 @@ li {
 li.finish {
   color: #aaa;
   text-decoration: line-through;
+  transition: 0.2s ease-in-out;
 }
 
 /* 체크박스 스타일 */
