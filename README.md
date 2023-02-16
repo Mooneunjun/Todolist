@@ -2,8 +2,6 @@
 
 Update
 
-We are excited to announce the latest update to our program, which includes several new features and improvements based on user feedback. Here are some of the key changes:
-
 Added a date display to the program header, which shows the current date in a user-friendly format.
 
 Implemented a checkbox feature for each to-do item, allowing users to mark completed tasks with a visual indicator.
