@@ -4,10 +4,10 @@ const month = (today.getMonth() + 1).toString().padStart(2, "0");
 const date = today.getDate().toString().padStart(2, "0");
 const dateString = `${year}년${month}월${date}일`;
 
-const titleDiv = document.querySelector(".title");
+const titleEl = document.querySelector(".title");
 const dateEl = document.createElement("span");
 dateEl.textContent = dateString;
-titleDiv.appendChild(dateEl);
+titleEl.insertBefore(dateEl, titleEl.children[1]);
 
 const input = document.getElementById("input");
 const addBtn = document.getElementById("add-btn");
@@ -28,7 +28,7 @@ function showList() {
 
     // 삭제 버튼 생성
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "삭제";
+    deleteBtn.textContent = "";
     deleteBtn.dataset.index = index;
     deleteBtn.addEventListener("click", () => {
       savedList.splice(index, 1);
@@ -51,6 +51,10 @@ function showList() {
         li.classList.remove("finish");
       }
     });
+    const label = document.createElement("label");
+    label.htmlFor = "checkbox";
+
+    li.insertBefore(label, li.firstChild);
     li.insertBefore(checkbox, li.firstChild);
 
     if (item.completed) {
