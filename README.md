@@ -13,4 +13,4 @@ Updated the layout of the to-do list to make it more visually appealing, includi
 
 Thank you for your continued support and feedback, and please don't hesitate to reach out with any further suggestions or issues.
 
-### I'm not very happy with the project I've been working on, it's very little functionality, it's not a good page, and I'm going to re-build a really practical to-do list in the future
+### I am dissatisfied with the project I have been working on, as it has very limited functionality and a poor design. I plan to rebuild a more practical and user-friendly to-do list in the future.
