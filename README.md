@@ -1,6 +1,7 @@
 # Todolist
 
-Update
+
+##Update
 
 Added a date display to the program header, which shows the current date in a user-friendly format.
 
@@ -11,3 +12,5 @@ Included a delete button for each to-do item, which allows users to remove indiv
 Updated the layout of the to-do list to make it more visually appealing, including strikethrough styling for completed items and a centered display for mobile devices.
 
 Thank you for your continued support and feedback, and please don't hesitate to reach out with any further suggestions or issues.
+
+###I'm not very happy with the project I've been working on, it's very little functionality, it's not a good page, and I'm going to re-build a really practical to-do list in the future
